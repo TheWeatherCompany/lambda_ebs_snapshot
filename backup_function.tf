@@ -1,5 +1,5 @@
 resource "aws_iam_role" "ebs_backup_role" {
-  name = "ebs_backup_role"
+  name = "ebs_backup_role_${var.region}"
 
   assume_role_policy = <<EOF
 {
