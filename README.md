@@ -1,4 +1,4 @@
-# Terraform config for automatic EBS snapshots
+# Terraform module for automatic EBS snapshots
 
 This repo contains a terraform configuration that creates two lambda functions
 that will take automatic EBS snapshots at regular intervals. It is based on
